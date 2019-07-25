@@ -9,12 +9,12 @@ body{
     background-color: blueviolet;
     margin-left: auto;
     margin-right: auto;
-    height: 10em;
+    height: 100pt;
 }
 .Title-Intro{
     color: bisque;
     text-align: center;
-    font-size: auto;
+    font-size: 40pt;
 }
 .Main-Nav{
     background-color: blueviolet
