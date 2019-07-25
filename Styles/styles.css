@@ -1,0 +1,26 @@
+body{
+    background: gray;
+    height: 300pt;
+    width: auto;
+    border-color: brown;
+    border-width: 30pt;
+}
+.Div-Title{
+    background-color: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10em;
+}
+.Title-Intro{
+    color: bisque;
+    text-align: center;
+    font-size: auto;
+}
+.Main-Nav{
+    background-color: blueviolet
+
+}
+li{
+    float: left;
+    margin-right: 50pt;
+}
