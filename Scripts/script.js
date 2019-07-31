@@ -4,7 +4,6 @@ function runCode(number){
 function fibonacci(number){
     if(number <= 2){
         return 1;
-    }
-    else 
-        return (fibonacci(number - 1) + fibonacci(number - 2));
+    } 
+    return (fibonacci(number - 1) + fibonacci(number - 2));
 }
