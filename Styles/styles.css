@@ -9,7 +9,6 @@
 }
 
 body{
-    height: 300pt;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -21,13 +20,21 @@ body{
     margin-right: auto;
     height: 50pt;
 }
+.Nav-Main{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 .Div-Body{
     background-color: var(--pri-color);
+    width: 100%;
 }
 .Div-Intro{
     background-color: var(--sec-color);
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 30pt;
 }
 .Div-Intro h1{
     color: var(--six-color);
@@ -41,6 +48,7 @@ body{
     font-size: 40pt;
 }
 .Main-Nav{
+    
     background-color: #333;
     margin-left:auto;
     margin-right: auto;
@@ -50,7 +58,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
+}
 li{
     float: left;
     width: auto;
