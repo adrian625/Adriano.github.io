@@ -1,3 +1,10 @@
-function runCode(){
-    alert("Hello World");
+function runCode(number){
+    alert(fibonacci(number));
+}
+function fibonacci(number){
+    if(number <= 2){
+        return 1;
+    }
+    else 
+        return (fibonacci(number - 1) + fibonacci(number - 2));
 }

@@ -2,14 +2,43 @@
 <html>
 
 <head>
-    <title>HTML Tutorial</title>
+    <title>Adriano's Portfolio</title>
     <script src="Scripts/script.js"></script>
+    <script src="Scripts/scan.js"></script>
+    <link rel="stylesheet" href="Styles/styles.css">
 </head>
-
-<body>
-    <h1>This is a heading</h1>
-    <p>This is a paragraph.</p>
-    <button onclick="runCode()">Click Me</button>
+<body class="mbg2">
+    <div class="Div-Title-Nav" id="navTitleDiv">
+        <div class="Div-Title" id="titleDiv">
+            <h1 class="Title-Intro" id="introTitle">
+                Welcome to Adriano's Profile
+            </h1>
+        </div>
+        <nav class="Main-Nav" id="navMain">
+            <ul class="Nav-Buttons" id="buttonNav">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="Sites/Code.html">Code</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">JavaScript</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    <div class="Div-Body" id="bodyDiv">
+        <div class="Div-Intro" id="introDiv">
+            <div class="Intro-Title" id="titleIntro">
+                <h1>Introduction</h1>
+                <br>
+                <p1 class="Intro-Data" id="dataIntro">
+                    Hello, I am an application Developer with Supervisor status at UPS.
+                </p1>                
+            </div>
+            <br>
+        </div>
+    </div>
+    <button onclick="runCode(11)">Popup</button>
+    <button onclick="runCode2()">View Location</button>
 </body>
 
 </html>
